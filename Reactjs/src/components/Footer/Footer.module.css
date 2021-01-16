@@ -1,0 +1,85 @@
+.footer{
+    background-color: #293340;
+    color: white;
+}
+.Links{
+   color: white;
+   text-decoration: none;
+ }
+ .footer1{
+     min-height: 370px;
+     background-image:url("https://hqsmartpanel.com/themes/stack/assets/home/images/footer-shape-1.svg");
+ }
+ .footer2{
+     margin-top: 100px;
+    min-height: 220px;
+ }
+ .Linkbox{
+     max-height:150px;
+    margin-top: -120px;
+     margin-left: 12.9%;
+ }
+ .quicklinks{
+     margin-top: -80px;
+     margin-left: 6%;
+ }
+ .logo{
+     padding-top:40px;
+     padding-left: 15%;
+     padding-bottom: 20px;
+ }
+ .input{
+     outline: none;
+     border-radius: 30px;
+    min-height:40px;
+    width: 140%;
+   
+ }
+ .button{
+    outline: none;
+     border-color: transparent;
+     width: 50%;
+     height: 50px;
+     color:white;
+     border-radius: 30px;
+     margin-left: 46%;
+     background-size: 200%;
+     background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+ }
+ .infosubscribe{
+     margin-left: 70%;
+     
+ }
+ .footerinfo2{
+     display: none;
+ }
+ @media only screen and (min-width: 1000px) {
+     .footerinfo{
+       display: none;
+     }
+     .footerinfo2{
+         white-space: nowrap;
+        padding-left: 80%;
+        display: grid;
+    }
+ 
+}
+
+
+ @media only screen and (max-width: 600px) {
+    .footer2{
+        margin-top: -90px;
+        margin-left: 20%;
+    }
+    .input{
+        font-size: large;
+        width: 140%;
+    margin-left: -20%;
+    }
+    .button{
+        font-size: large;
+        width: 70%;
+        margin-left:20% ;
+        outline: none;
+    }
+ }

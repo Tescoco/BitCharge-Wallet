@@ -1,0 +1,130 @@
+.root{
+    text-align: center;
+    color: white;
+    min-height: 590px;
+  background: url("https://github.com/images/modules/site/heroes/simple-codelines.svg")
+  , rgb(43, 49, 55);
+}
+.firsttextgrid{
+    margin-top: 80px;
+}
+.firsttext{
+    white-space: nowrap;
+    font-weight:500;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size:46px;
+    
+}
+.secondText{
+    margin-top: -30px;
+    
+}
+.secondTextspan2{
+    display: none;
+}
+.secondTextspan{
+    letter-spacing: 5px;
+    font-size:18px;
+}
+.users{
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size:46px;
+  
+}
+.button{text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 100px;
+    /* position: absolute; */
+    background-color: rgb(5, 151, 5);
+    color: white;
+    border-color: transparent;
+    outline: none;
+    font-size:18px;
+    border-radius: 10px;
+     width: 120px;
+     height: 55px;
+}
+.input{
+    font-size: 20px;
+    border-width: 1px;
+   border-style: solid;
+    border-radius: 10px;
+    border-color:rgb(218, 218, 218);
+    outline: none;
+    width: 350px;
+    height: 40px;
+}
+.gridboxes{
+    padding-bottom: 30px;
+}
+.loginbox{
+    display: none;
+    height: 500px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+}
+.innerloginbox{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.label{
+    font-size: 14px;
+    position: absolute;
+    margin-top: -6px;
+}
+.button2{
+   color: white;
+    background-color: rgba(5, 197, 85, 0.787);
+    height: 50px;
+    width: 150px;
+    border-color: transparent;
+    border-radius: 15px;
+  margin-left: 100px;
+  outline: none;
+  font-size: 16px;
+}
+.buttomMain{
+     padding-bottom: 20px;
+   
+}
+@media only screen and (min-width: 581px) {
+    .loginbox{
+        display: grid;
+    }
+    .secondTextspan2{
+        padding-top: 40px;
+        letter-spacing: 2px;
+    font-size:20px;
+        display: grid;
+    }
+    .secondTextspan{
+        display: none;
+    }
+    .root{
+        text-align: left;
+    }
+   .button{
+       display: none;
+   }
+   .firsttextgrid{
+       padding-top: 30px;
+       text-align: left;
+   }
+   .secondText{
+       padding-left: 25%;
+    margin-top: -100px;
+   }
+   .firsttext{
+    font-size:52px;
+   }
+   .users{
+    font-size:52px;
+   }
+   .secondTextspan{
+       
+       text-align: left;
+   }
+}
+/*  //rgb(43, 49, 55 */
