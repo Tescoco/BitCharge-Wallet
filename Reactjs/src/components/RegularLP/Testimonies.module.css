@@ -1,0 +1,50 @@
+.container{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.innerText{
+ padding-bottom: 10px;
+}
+.name{
+    font-weight: 600;
+}
+.innerdescription{
+    padding-top: 10px;
+    font-size: medium;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.description{
+   font-family:'Trebuchet MS', sans-serif;
+}
+.occupation{
+   margin-top: -1px;
+}
+.stars1{
+    padding-top: 40px;
+   margin-left: 5%;
+}
+.stars2{
+    padding-top: 80px;
+    margin-left: 5%;
+}
+.stars3{
+    padding-top: 40px;
+    margin-left: 5%;
+}
+@media only screen and (max-width: 600px) {
+    .card1{
+        padding-bottom: 30px;
+    }
+    .card2{
+        padding-bottom: 30px;
+    }
+    .card3{
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .cardinner3{
+       min-height: 400px;
+    }
+}

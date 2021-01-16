@@ -1,0 +1,38 @@
+.media{
+    max-width: 600px;
+}
+.about{
+     padding-left: 10%;
+    padding-top: 100px;
+}
+.words{
+    padding-left: 5%;
+    text-align: center;
+}
+.aboutus{
+    color: rgb(255, 145, 0);
+}
+.aboutustext1{
+    font-weight: lighter;
+    padding-top: 10px;
+     padding-bottom: 10px;
+}
+.aboutustext1span{
+    font-family: 'Nunito', sans-serif;
+}
+.aboutustext2span{
+    font-family: 'Heebo', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .media{
+       width: 320px; 
+       padding-bottom: 30px;
+    }
+    .about{ 
+         padding-top: 40px;
+   }
+   .words{
+    padding-left: 0%;
+ }
+
+}
